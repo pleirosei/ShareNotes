@@ -45,6 +45,14 @@ class Note: PFObject, PFSubclassing {
         formatter.dateFormat = "MM/dd/yyyy"
         return formatter.stringFromDate(createdAt!)
     }
+    
+    var fromUser: NoteUser {
+        get { return objectForKey("fromUser") as! NoteUser }
+        set { setObject(newValue, forKey: "fromUser") }
+    }
+    
+    var sharedNote: Bool = false
+    
 
     
 }
