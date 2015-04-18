@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		672052751AE2F88100099566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672052741AE2F88100099566 /* AppDelegate.swift */; };
+		672052771AE2F88100099566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672052761AE2F88100099566 /* ViewController.swift */; };
+		6720527A1AE2F88100099566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672052781AE2F88100099566 /* Main.storyboard */; };
+		6720527C1AE2F88100099566 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6720527B1AE2F88100099566 /* Images.xcassets */; };
+		6720527F1AE2F88100099566 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6720527D1AE2F88100099566 /* LaunchScreen.xib */; };
+		6720528B1AE2F88200099566 /* ShareNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6720528A1AE2F88200099566 /* ShareNotesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		672052851AE2F88100099566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672052671AE2F88100099566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6720526E1AE2F88100099566;
+			remoteInfo = ShareNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6720526F1AE2F88100099566 /* ShareNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		672052731AE2F88100099566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		672052741AE2F88100099566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		672052761AE2F88100099566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		672052791AE2F88100099566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6720527B1AE2F88100099566 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6720527E1AE2F88100099566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		672052841AE2F88100099566 /* ShareNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		672052891AE2F88100099566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6720528A1AE2F88200099566 /* ShareNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareNotesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6720526C1AE2F88100099566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672052811AE2F88100099566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		672052661AE2F88100099566 = {
+			isa = PBXGroup;
+			children = (
+				672052711AE2F88100099566 /* ShareNotes */,
+				672052871AE2F88100099566 /* ShareNotesTests */,
+				672052701AE2F88100099566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		672052701AE2F88100099566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6720526F1AE2F88100099566 /* ShareNotes.app */,
+				672052841AE2F88100099566 /* ShareNotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		672052711AE2F88100099566 /* ShareNotes */ = {
+			isa = PBXGroup;
+			children = (
+				672052741AE2F88100099566 /* AppDelegate.swift */,
+				672052761AE2F88100099566 /* ViewController.swift */,
+				672052781AE2F88100099566 /* Main.storyboard */,
+				6720527B1AE2F88100099566 /* Images.xcassets */,
+				6720527D1AE2F88100099566 /* LaunchScreen.xib */,
+				672052721AE2F88100099566 /* Supporting Files */,
+			);
+			path = ShareNotes;
+			sourceTree = "<group>";
+		};
+		672052721AE2F88100099566 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				672052731AE2F88100099566 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		672052871AE2F88100099566 /* ShareNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				6720528A1AE2F88200099566 /* ShareNotesTests.swift */,
+				672052881AE2F88100099566 /* Supporting Files */,
+			);
+			path = ShareNotesTests;
+			sourceTree = "<group>";
+		};
+		672052881AE2F88100099566 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				672052891AE2F88100099566 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6720526E1AE2F88100099566 /* ShareNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6720528E1AE2F88200099566 /* Build configuration list for PBXNativeTarget "ShareNotes" */;
+			buildPhases = (
+				6720526B1AE2F88100099566 /* Sources */,
+				6720526C1AE2F88100099566 /* Frameworks */,
+				6720526D1AE2F88100099566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareNotes;
+			productName = ShareNotes;
+			productReference = 6720526F1AE2F88100099566 /* ShareNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		672052831AE2F88100099566 /* ShareNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672052911AE2F88200099566 /* Build configuration list for PBXNativeTarget "ShareNotesTests" */;
+			buildPhases = (
+				672052801AE2F88100099566 /* Sources */,
+				672052811AE2F88100099566 /* Frameworks */,
+				672052821AE2F88100099566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672052861AE2F88100099566 /* PBXTargetDependency */,
+			);
+			name = ShareNotesTests;
+			productName = ShareNotesTests;
+			productReference = 672052841AE2F88100099566 /* ShareNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		672052671AE2F88100099566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Sean Livingston";
+				TargetAttributes = {
+					6720526E1AE2F88100099566 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					672052831AE2F88100099566 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 6720526E1AE2F88100099566;
+					};
+				};
+			};
+			buildConfigurationList = 6720526A1AE2F88100099566 /* Build configuration list for PBXProject "ShareNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 672052661AE2F88100099566;
+			productRefGroup = 672052701AE2F88100099566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6720526E1AE2F88100099566 /* ShareNotes */,
+				672052831AE2F88100099566 /* ShareNotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6720526D1AE2F88100099566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6720527A1AE2F88100099566 /* Main.storyboard in Resources */,
+				6720527F1AE2F88100099566 /* LaunchScreen.xib in Resources */,
+				6720527C1AE2F88100099566 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672052821AE2F88100099566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6720526B1AE2F88100099566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672052771AE2F88100099566 /* ViewController.swift in Sources */,
+				672052751AE2F88100099566 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672052801AE2F88100099566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6720528B1AE2F88200099566 /* ShareNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		672052861AE2F88100099566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6720526E1AE2F88100099566 /* ShareNotes */;
+			targetProxy = 672052851AE2F88100099566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		672052781AE2F88100099566 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				672052791AE2F88100099566 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6720527D1AE2F88100099566 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6720527E1AE2F88100099566 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6720528C1AE2F88200099566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6720528D1AE2F88200099566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6720528F1AE2F88200099566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		672052901AE2F88200099566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		672052921AE2F88200099566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareNotes.app/ShareNotes";
+			};
+			name = Debug;
+		};
+		672052931AE2F88200099566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareNotes.app/ShareNotes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6720526A1AE2F88100099566 /* Build configuration list for PBXProject "ShareNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6720528C1AE2F88200099566 /* Debug */,
+				6720528D1AE2F88200099566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6720528E1AE2F88200099566 /* Build configuration list for PBXNativeTarget "ShareNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6720528F1AE2F88200099566 /* Debug */,
+				672052901AE2F88200099566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		672052911AE2F88200099566 /* Build configuration list for PBXNativeTarget "ShareNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672052921AE2F88200099566 /* Debug */,
+				672052931AE2F88200099566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 672052671AE2F88100099566 /* Project object */;
+}
